@@ -1,0 +1,25 @@
+{
+  "name": "logger-winston",
+  "version": "1.0.0",
+  "description": "<h2 id=\"motivation\">Motivation</h2>\r most minimal use of using node logger for debugging",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "nodemon ./src/index.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanKr/node-logger-winston.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanKr/node-logger-winston/issues"
+  },
+  "homepage": "https://github.com/NathanKr/node-logger-winston#readme",
+  "dependencies": {
+    "winston": "^3.17.0"
+  }
+}
