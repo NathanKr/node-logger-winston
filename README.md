@@ -16,8 +16,6 @@ npm run dev
 ```
 
 
-<h2 id="demo">Demo</h2>
-
 index.ts
 
 ```ts
@@ -44,11 +42,34 @@ export const logger = createLogger({
 });
 
 ```
+
+
+<h2>Demo</h2>
+
+level is high
+
+....
+
+
+level is low
+
+
 <h2 id="points-of-interest">Points of Interest</h2>
 <ul>
-    <li>Innovative features</li>
-    <li>Technical challenges and solutions</li>
-    <li>Lessons learned</li>
+    <li>log level enum</li>
+    you might want to use this enum for level in createLogger
+
+    ```ts
+    export enum WinstonLogLevel {
+      // --- do not change value
+      ERROR = "error",
+      WARN = "warn",
+      INFO = "info",
+      VERBOSE = "verbose",
+      DEBUG = "debug",
+      SILLY = "silly",
+    }
+    ```
 </ul>
 
 <h2 id="references">References</h2>
