@@ -63,6 +63,7 @@ export const logger = createLogger({
 ```
 
 <h2>Demo</h2>
+This section demonstrate how different log levels affect the output and what each level signifies in practical use.
 
 <h3>Log Level is High</h3>
 
@@ -77,6 +78,8 @@ setting level to 'verbose' in createLogger produces the following
 <img src='./figs/demo-log-low.png' alt="Low log level demo">
 
 <h2>Points of Interest</h2>
+This section explores key aspects of log levels, provides an enum for streamlined log level configuration, and discusses customizable logger formats for better clarity and context.
+
   <h3>More about log level</h3>
     <table>
   <thead>
@@ -121,7 +124,7 @@ setting level to 'verbose' in createLogger produces the following
 </table>
 
 
-  <h3>log level enum</h3>
+  <h3>Log Level Enum</h3>
   You might want to use this enum for specifying the log level in `createLogger`.
 
   ```ts
@@ -136,7 +139,7 @@ setting level to 'verbose' in createLogger produces the following
   }
   ```
 
-<h3>logger format</h3>
+<h3>Logger Format</h3>
 You can tweak it by adding features like timestamps.
 
 <h2>References</h2>
